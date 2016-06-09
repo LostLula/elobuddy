@@ -40,7 +40,7 @@ namespace AutoBuddy
             menu = MainMenu.AddMenu("AB+", "AB");
             menu.AddGroupLabel("Default");
             CheckBox c =
-                new CheckBox("Call mid, will leave if other player stays on mid (only auto lane)", true);
+                new CheckBox("Call mid, will leave if other player stays on mid (only auto lane)", false);
 
             PropertyInfo property2 = typeof(CheckBox).GetProperty("Size");
             property2.GetSetMethod(true).Invoke(c, new object[] { new Vector2(500, 20) });
