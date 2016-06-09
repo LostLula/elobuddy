@@ -117,6 +117,7 @@ namespace AutoBuddy
             bool generic = false;
             switch (ObjectManager.Player.Hero)
             {
+                /*
                 case Champion.Sivir:
                     myChamp = new Sivir();
                     break;
@@ -141,6 +142,7 @@ namespace AutoBuddy
                 case Champion.Tristana:
                     myChamp = new Tristana();
                     break;
+                    */
                 default:
                     generic = true;
                     myChamp = new Generic();
